@@ -16,14 +16,13 @@ function App() {
   return (
     <div className="App">
        
-       <Routes>
-        <Route path="/Home" element={<HomeLayout />} >
+       {/* <Routes>
+        <Route path="/Home" element={<Home />} />
         <Route path="/Book" element={<Book />} />
         <Route path="/Events" element={<Events />} />
-        <Route path="/Events" element={<h1>Dog</h1>} />
-          <Route/>
+         
        
-       </Routes>
+       </Routes> */}
       
 
 <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', ml: 2 }}>

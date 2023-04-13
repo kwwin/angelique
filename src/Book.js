@@ -7,9 +7,11 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import Modal from '@mui/material/Modal';
-import two from './photos/two.png';
-import three from './photos/three.png';
 
+import { Stack } from '@mui/material';
+// data
+import { Data } from './BookData.js/Data';
+import SingleBook from './SingleBook';
 
 function Book()  {
     const [open, setOpen] = useState(false);
@@ -21,11 +23,24 @@ function Book()  {
   const handleClose = () => {
     setOpen(false);
   };
+
+  // const [showMoreText, setShowMore] = useState(false)
+
+  // const showMore = () => {
+  //   setShowMore(true)
+  // }
     
   
     return (
       <div sx={{display: 'flex', flexDirection: 'row', justifyContent: 'center'}}>
-        <Card sx={{ display: 'flex', maxWidth: 285, mt: 5 }}>
+        {/* <Stack direction="row" sx={{marginTop:'2rem', display:'flex',flexWrap:'wrap'}} justifyContent="space-around">
+          {Data?.map((item)=>{
+            return <SingleBook item={item} showMoreText={showMoreText} showMore={showMore}/>
+          })}
+        </Stack> */}
+        <SingleBook/>
+
+        {/* <Card sx={{ display: 'flex', maxWidth: 285, mt: 5 }}>
           <Box sx={{ display: 'flex', flexDirection: 'column' }}>
             <CardContent sx={{ flex: '1 0 auto' }}>
               <Typography component="div" variant="h7">
@@ -38,12 +53,10 @@ function Book()  {
           </Box>
           <CardMedia component="img" sx={{ width: 155, height: 190 }} image={two} alt="" />
           
-        </Card>
-        <Modal open={open} onClose={handleClose}>
+        </Card> */}
+        {/* <Modal open={open} onClose={handleClose}>
           <Box >
-            {/* <Typography variant="h6" component="h2">
-             Munting Bata Mangarap ka
-            </Typography> */}
+        
             <h6>
              Munting Bata Mangarap ka   
             </h6>
@@ -153,7 +166,7 @@ Tayo ay magtatagumpay.
             </Button>
           
           </Box>
-        </Modal>
+        </Modal> */}
 
         
         {/* <div>
