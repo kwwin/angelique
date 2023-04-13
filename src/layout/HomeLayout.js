@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button } from '@mui/material'
 import {Outlet} from 'react-router-dom'
-import Bgmain from '../bgmain.png'
+import Landing from '../landing.png'
 
 const HomeLayout = () => {
 
@@ -14,7 +14,7 @@ const HomeLayout = () => {
                     <Button href="/Events" style={{color: "black"}}>Events</Button>
                 </nav> 
                 <header className="App-header ">
-                    <img src={Bgmain} alt="bgmain" className="image-size" style={{width: '100%', height: '100%'}} />
+                    <img src={Landing} alt="landing" className="image-size" style={{width: '100%', height: '50%'}} />
                 </header>
 
                 {/* ito yung nag ddisplay nung children */}
