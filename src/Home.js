@@ -1,15 +1,6 @@
 // import './App.css';
-import Home from "./Home";
-import Book from "./Book";
-import Events from "./Events";
-import {Route, Routes} from "react-router-dom";
-import Button from '@mui/material/Button';
 import React from 'react'
-import {  Card, CardActions, CardContent, Typography } from '@mui/material';
-import two from './photos/two.png';
-import four from './photos/four.png';
 import Container from '@mui/material/Container';
-import HomeLayout from "./layout/HomeLayout";
 
 
 function App() {

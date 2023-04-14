@@ -2,9 +2,9 @@ import React from 'react'
 import './App.js';
 import Button from '@mui/material/Button';
 import {  Card, CardActions, CardContent, Typography } from '@mui/material';
-import two from './photos/two.png';
-import four from './photos/four.png';
-import Container from '@mui/material/Container';
+import nine from './photos/nine.png';
+import seven from './photos/seven.png';
+
 
 // import Button from '@mui/material/Button';
 // import Home from "./Home";
@@ -30,14 +30,14 @@ const Events = () => {
         </h2>
         <CardContent style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-            <img src={four} alt="" width="350" height="450" />
+            <img src={nine} alt="" width="350" height="450" />
           </div>
           <Typography gutterBottom variant="h6" component="div" style={{ fontFamily: 'Arial', fontStyle: 'italic', marginTop: '20px' }}>
-            Posible o Imposible
+            Tadhana
           </Typography>
   
-          <p style={{ fontSize: '18px' }}>
-            The theme of this love story is the use of suffering to achieve the seemingly impossible.
+          <p style={{ fontSize: '18px', textAlign: 'center' }}>
+          The theme of this love story is that two people who love each other become separated, but at the end they are together.
           </p>
   
         </CardContent>
@@ -52,14 +52,14 @@ const Events = () => {
         </h2>
         <CardContent style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-            <img src={two} alt="" width="350" height="450" />
+            <img src={seven} alt="" width="350" height="450" />
           </div>
           <Typography gutterBottom variant="h6" component="div" style={{ fontFamily: 'Arial', fontStyle: 'italic', marginTop: '20px' }}>
-            Munting Bata Mangarap ka
+            Pangako
           </Typography>
   
-          <p style={{ fontSize: '18px' }}>
-            A better future is possible for hardworking street youngsters who have a dream.
+          <p style={{ fontSize: '18px', textAlign: 'center' }}>
+       People stay not because of love; they stay because of commitment and promises.
           </p>
   
         </CardContent>
