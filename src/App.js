@@ -37,6 +37,7 @@ function App() {
        
        <nav style={{display: "flex", justifyContent: "center"}} >
       <Button href="/home" style={{color: "black"}}>Home</Button>
+      <Button href="/digiposter" style={{color: "black"}}>Poster</Button>
       <Button href="/book" style={{color: "black"}}>Book</Button>
       <Button href="/events" style={{color: "black"}}>Events</Button>
 </nav>

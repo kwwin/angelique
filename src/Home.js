@@ -16,58 +16,18 @@ function App() {
   return (
     <div className="App">
        
-       {/* <Routes>
-        <Route path="/Home" element={<Home />} />
-        <Route path="/Book" element={<Book />} />
-        <Route path="/Events" element={<Events />} />
-         
-       
-       </Routes> */}
-      
+       <Container sx={{ backgroundColor: 'burlywood', width: '80%', height: '400px', marginTop: 10 }}>
+  <h1 style={{display: "flex", justifyContent: "center", fontFamily: "cursive"}}>
+    Digital Poster
+  </h1>   
+  <p style={{textAlign: 'center', textJustify: 'inter-word', margin: '30px 20px'}}>
+  Simply a digital poster for school purposes. As such, incorporating multimedia,conferences, events, even logos and certificates, There are countless design options, some of which are more effective than others.   </p>
 
-<div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', ml: 2 }}>
-      <Card sx={{ maxWidth: 'auto', maxHeight: 'auto' }} className="carditem">
-        <h2 style={{ color: 'saddlebrown', fontFamily: 'Arial' }}>
-          - Latest Release -
-        </h2>
-        <CardContent>
-          <img src={four} alt="" width="350" height="450" />
-          <Typography gutterBottom variant="h6" component="div" style={{ fontFamily: 'Arial', fontStyle: 'italic', marginTop: '20px' }}>
-            Posible o Imposible
-          </Typography>
+  <Container sx={{ backgroundColor: 'cornsilk', width: '80%', height: '500px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}> 
+  <iframe width="900" height="450" src="https://www.youtube.com/embed/ZULiWmrJeXk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  </Container>
+</Container>    
 
-          <p style={{ fontSize: '18px' }}>
-            The theme of this love story is the use of suffering to achieve the seemingly impossible.
-          </p>
-
-        </CardContent>
-        <CardActions>
-          <Button size="small"></Button>
-        </CardActions>
-      </Card>
-
-      <Card sx={{ maxWidth: 'auto', maxHeight: 'auto' }} className="carditem">
-        <h2 style={{ color: 'saddlebrown', fontFamily: 'Arial' }}>
-          - Latest Release -
-        </h2>
-        <CardContent>
-          <img src={two} alt="" width="350" height="450" />
-          <Typography gutterBottom variant="h6" component="div" style={{ fontFamily: 'Arial', fontStyle: 'italic', marginTop: '20px' }}>
-            Munting Bata Mangarap ka
-          </Typography>
-
-          <p style={{ fontSize: '18px' }}>
-            A better future is possible for hardworking street youngsters who have a dream.
-          </p>
-
-        </CardContent>
-        <CardActions>
-          <Button size="small"></Button>
-        </CardActions>
-      </Card>
-      </div>
-      
-      <Container sx={{ backgroundColor: 'burlywood', width: '80%', height: '400px', marginTop: 10 }}>
+       <Container sx={{ backgroundColor: 'burlywood', width: '80%', height: '400px', marginTop: '400PX' }}>
   <h1 style={{display: "flex", justifyContent: "center", fontFamily: "cursive"}}>
     About Poet by Thee
   </h1>   
@@ -75,9 +35,12 @@ function App() {
     Poet's "written" by Thee "you". The owner and author of "Poet's by Thee" is Queen A, she is a student in one of the university in the Phillippines. She loves Singing and writting a spoken poetrys based on her  experinces in life.
   </p>
 
-  <Container sx={{ backgroundColor: 'cornsilk', width: '80%', height: '500px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}> 
+  <Container sx={{ backgroundColor: 'cornsilk', width: '80%', height: '500px', display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom: '1rem' }}> 
  <iframe width="900" height="450"  src="https://www.youtube.com/embed/e1SHsU3f32w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  </Container>
 </Container>    
+
+      
+
 
 <div>
 <footer className="footer">

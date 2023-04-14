@@ -6,6 +6,7 @@ import {Routes, Route} from 'react-router-dom'
 import Home from "./Home";
 import Book from "./Book";
 import Events from "./Events";
+import Digiposter from "./digiposter";
 import HomeLayout from './layout/HomeLayout';
 // img
 
@@ -16,6 +17,7 @@ const App2 = () => {
         <Routes>
             <Route path="/" element={<HomeLayout />} >
                 <Route index element={<Home />} />
+                <Route path="/digiposter" element={<Digiposter />} />
                 <Route path="/book" element={<Book />} />
                 <Route path="/events" element={<Events />} />
             </Route>
