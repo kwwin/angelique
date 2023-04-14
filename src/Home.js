@@ -43,12 +43,21 @@ function App() {
 
 
 <div>
-<footer className="footer">
-<a href="https://https://www.facebook.com/angelique.santiago.908?mibextid=ZbWKwL
-.facebook.com/"><img src="facebook-icon.png" alt="Facebook" style={{ marginRight: "20px" }} /></a>
-    <a href="https://instagram.com/angelique_santiago28?igshid=YmMyMTA2M2Y=://www.instagram.com/"><img src="instagram-icon.png" alt="Instagram" /></a>
-  </footer>     </div>
+  <footer className="footer">
+    <a href="https://m.facebook.com/angelique.santiago.908">Facebook</a> &nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://instagram.com/angelique_santiago28?igshid=YmMyMTA2M2Y=://www.instagram.com/">Instagram</a> &nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="www.linkedin.com/in/angelique-santiago-65a831272">LinkedIn</a> &nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="mailto:qasantiago8@gmail.com">Email</a>
+  </footer>
+</div>
+
+
+
+  
      </div>
+
+
+     
   );
 }
 

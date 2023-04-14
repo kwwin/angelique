@@ -9,7 +9,7 @@ const SingleBookItem = ({item, showMoreText, showMore}) => {
   return (
     <>
         {/* <Modal open={open} onClose={handleClose}> */}
-            <Box sx={{width:'500px',margin:'0 1rem 1rem', boxShadow:'0px 0px 5px', padding:'2rem'}}>
+        <Box sx={{width:'500px',margin:'0 1rem 1rem', boxShadow:'0px 0px 5px', padding:'6rem'}}>
                 <Stack direction="row">
                     <img src={item.img} width='200px' style={{borderRadius:'20px', marginRight:'1rem'}}/>
                     <Box>

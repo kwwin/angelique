@@ -69,6 +69,16 @@ const Events = () => {
       </Card>
     </div>
   </div>
+
+  <div>
+  <footer className="footer">
+    <a href="https://m.facebook.com/angelique.santiago.908">Facebook</a> &nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://instagram.com/angelique_santiago28?igshid=YmMyMTA2M2Y=://www.instagram.com/">Instagram</a> &nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="www.linkedin.com/in/angelique-santiago-65a831272">LinkedIn</a> &nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="mailto:qasantiago8@gmail.com">Email</a>
+  </footer>
+</div>
+
 </div>
 
   
